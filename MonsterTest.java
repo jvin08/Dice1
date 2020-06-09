@@ -40,8 +40,8 @@ public class MonsterTest {
     @Parameters ({ "ParamKey1" })
     @Test
     public void test0001() {
-        String Email = "ivan8qa@gmail.com";
-        String Password = "jD3$_wL0o";
+        String Email = "*************";
+        String Password = "************";
 
         openMonsterPage();
         loginIntoAccount(Email, Password);
