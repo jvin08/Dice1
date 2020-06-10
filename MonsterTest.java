@@ -39,14 +39,15 @@ public class MonsterTest {
 
     @Parameters ({ "ParamKey1" })
     @Test
-    public void test0001() {
-        String Email = "ivan8qa@gmail.com";
+    public void test0001(String Email) {
+        //String Email = "ivan8qa@gmail.com";
         String Password = "jD3$_wL0o";
 
         openMonsterPage();
         loginIntoAccount(Email, Password);
         clickEditProfile();
         clickSaveChanges();
+        System.out.println("Monster updated");
     }
 
     private void clickSaveChanges() {
