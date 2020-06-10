@@ -63,7 +63,7 @@ public class CareerbuilderTest {
 
         WebElement hoverSignIn = driver.findElement(By.xpath(xPathSignInHover));
         //WebElement goToProfile = driver.findElement(By.xpath(xPathMyProfile));
-        action.moveToElement(hoverSignIn);
+//        action.moveToElement(hoverSignIn);
 
 //        WebElement clickSignIn = driver.findElement(By.xpath(xPathMyProfile));
 //        clickSignIn.click();
