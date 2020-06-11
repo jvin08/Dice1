@@ -40,6 +40,7 @@ public class DiceTest {
     @Parameters({ "paramKey1" })
     @Test
     public void test0001(String Email) {
+//      String Email = "ivan8qa@gmail.com";
         String Password = "jD3$_wL0o";
 
         openDicePage();
